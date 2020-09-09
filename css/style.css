@@ -31,19 +31,55 @@ header p {
   color: white;
 }
 
-h1 {
+.hero h1 {
   font-family: "Inter", sans-serif;
   font-size: 72px;
 }
 
-h2 {
+.hero h2 {
   font-family: "Inter", sans-serif;
-  font-size: 36px;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.hero p {
+p {
   font-family: "Nunito Sans", sans-serif;
   font-size: 16px;
+  line-height: 30;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 24px;
+}
+
+#bodyContainer {
+  margin: 0 5%;
+}
+
+#skills {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "programs, processSkills"
+    "frontEndDev, designTheory";
+  column-gap: 2vw;
+  row-gap: 2vw;
+}
+
+#bio {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "programs, processSkills"
+    "frontEndDev, designTheory";
 }
 
 button {
