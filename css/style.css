@@ -1,6 +1,7 @@
 body {
   margin: 0;
 }
+
 header {
   background-color: #373738;
   padding: 15px;
@@ -45,7 +46,6 @@ header p {
 p {
   font-family: "Nunito Sans", sans-serif;
   font-size: 16px;
-  line-height: 30;
 }
 
 h1 {
